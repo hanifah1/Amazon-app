@@ -35,7 +35,7 @@ handleDecrement = (product) => {
         Eligible for FREE Shipping<br />
         Gift options not available. Learn more</p>
 
-        <a onClick={() => this.props.onDelete(this.props.counter.id)} >Delete </a>
+        <a onClick={() => this.props.onDelete(this.props.counter.id)} id="delete">Delete </a>
       </div>
 
         <div id="quantity">
@@ -44,10 +44,10 @@ handleDecrement = (product) => {
           </span>
           <button
           onClick= {(product) => this.handleIncrement(product)}
-          className="btn btn-secondary btn-sm m-2">Increment</button>
+          className="btn btn-secondary btn-sm m-2">+</button>
           <button
           onClick= {(product) => this.handleDecrement(product)}
-          className="btn btn-secondary btn-sm">Decrement</button>
+          className="btn btn-secondary btn-sm">-</button>
         </div>
 
       <p id="price">Price: {this.state.totalPrice}</p>
@@ -60,14 +60,14 @@ handleDecrement = (product) => {
 
   getBadgeClasses() {
     let classes = "badge m-2 badge-";
-    classes += this.state.count === 0 ? "warning" : "primary";
+
     return classes;
   }
 
 //this is to chage the count label to a number if greater than 0
   formatCounter() {
     const { count } = this.state;
-    return count === 0 ? "Zero" : count;
+    return count;
   }
 }
 

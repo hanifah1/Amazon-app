@@ -22,6 +22,13 @@
 #price {
   display: inline-block;
   float:right;
+  font-weight: bold;
+  color: #cc5500;
+}
+
+#delete {
+  color: #cc5500;
+  font-weight: bold;
 }
 
 #quantity {
@@ -32,4 +39,8 @@
 #itemInfo {
   display: inline-block;
   width: 69%;
+}
+
+#quantity button {
+  width: 30px;
 }

@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Amazon-app/static/media/amazonCard.9f2b977a.png"
   },
   {
-    "revision": "895be2daebf61113e1fe",
-    "url": "/Amazon-app/static/css/main.636fd790.chunk.css"
+    "revision": "95ef759ed5d70bc5313e",
+    "url": "/Amazon-app/static/css/main.d6cef595.chunk.css"
   },
   {
     "revision": "eb912e5c60697f32c4f2",
@@ -24,20 +24,20 @@ self.__precacheManifest = [
     "url": "/Amazon-app/static/media/banner1.9f5aac29.jpg"
   },
   {
-    "revision": "895be2daebf61113e1fe",
-    "url": "/Amazon-app/static/js/main.895be2da.chunk.js"
+    "revision": "95ef759ed5d70bc5313e",
+    "url": "/Amazon-app/static/js/main.95ef759e.chunk.js"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/Amazon-app/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/Amazon-app/static/media/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/Amazon-app/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/Amazon-app/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Amazon-app/static/css/2.f43468e1.chunk.css"
   },
   {
-    "revision": "6357390caa529eb5a6e727708ac30924",
+    "revision": "aafa649ec14c765bb5e19a74e1ae1fdb",
     "url": "/Amazon-app/index.html"
   }
 ];

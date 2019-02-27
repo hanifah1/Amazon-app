@@ -2,7 +2,16 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hanifah1.github.io/Amazon-app/",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"

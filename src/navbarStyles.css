@@ -1,0 +1,27 @@
+.navbarLinks {
+  color: #ccc;
+  font-family: arial,sans-serif;
+  font-size: 16px;
+}
+
+.navlink {
+  padding-right: 30px
+}
+
+#navcol1 {
+  display: inline-block;
+  position: relative;
+  float: left;
+  max-width:50%;
+}
+
+#navcol2 {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  max-width:80%;
+}
+
+#searchBar {
+  min-width: 500px;
+}

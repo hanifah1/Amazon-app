@@ -1,0 +1,35 @@
+#images {
+  display: inline-block;
+  position: relative;
+  float: left;
+  height: 120px;
+  width: 120px;
+}
+
+#items {
+  border-bottom: solid;
+  border-color: lightgray;
+  border-width: 1px;
+}
+
+#items h4 {
+  color: #0066c0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#price {
+  display: inline-block;
+  float:right;
+}
+
+#quantity {
+  display: inline-block;
+  float:right;
+}
+
+#itemInfo {
+  display: inline-block;
+  width: 69%;
+}
